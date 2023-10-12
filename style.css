@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(43, 3, 184);
+    font-family: roboto;
+}
+.container{
+    margin: 0 10rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    color: white;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style-type: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0.4rem 0.8rem;
+    color: white;
+}
+.purchase{
+    background-color: rgb(192, 10, 50);
+    border-radius: 16px;
+}
+.main{
+    padding: 1rem 0;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 45%;
+}
+.left h1{
+    font-size: 5rem;
+    line-height: 1;
+    color: white;
+}
+.left p{
+    font-size: 1.5rem;
+    width: 80%;
+    color: white;
+    padding: 1rem 0 2rem 0;
+}
+.left a{
+    background-color: rgb(192, 10, 50);
+    text-decoration: none;
+    padding: 0.5rem 1.2rem;
+    color: white;
+    border-radius: 16px;
+}
+.white{
+    background-color: white;
+    border-radius: 7px;
+}
+.form{
+    text-align: center;
+    padding: 3rem;
+    margin: 0 1.5rem;
+}
+.form h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+.input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 20px;
+}
+.signin{
+    background-color: rgb(43, 3, 184);
+    text-decoration: none;
+    color: white;
+    padding: 13px 164px;
+    border-radius: 22px;
+    margin-bottom: 10px;
+}
+.login{
+    background-color: rgb(65, 177, 252);
+    padding: 13px 129px;
+    border-radius: 22px;
+    color: white;
+    text-decoration: none;
+}
+.form p{
+    margin-top: 45px;
+}
+.or{
+    color: gray;
+        /* margin: 10px 0; */
+    display: block;
+    position: relative;
+    max-width: 500px;
+  margin: 10px auto;
+  text-align: center;
+
+}
+.or:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 173px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: gray;
+  }
+ .or:after{
+    content:" ";
+    height: 2px;
+    width: 173px;
+    background: gray;
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+ } 
